@@ -1,19 +1,26 @@
 Criar pasta principal do projeto
     git init
-    status do git
+    git status
 Adicionar arquivos
-    gi adicionar. ou "nome dos arquivos"
+    git add . ou "nome dos arquivos"
 Gravar na base local conforme alterações
-    git commit "texto de marcação da adição ou alteração - Versão"
-Criar ligação entre uma base local de arquivos com uma base remota
+    git commit -m "texto de marcação da adição ou alteração - Versão"
+Ligação de uma base local de arquivos com uma base remota
     git config --global user.email "email@dominio"
     git config --global user.name "nome a ser relacionado com adição ou alteração - Versão"
+Vinculação entre a base local com o Repositório Remot GitHub
+    git remote add origin <link do repositório remoto>
+Associando um e-mail à sua chave GPG /SSH
+    https://docs.github.com/en/authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key
+
+
 Preparação de arquivos para transferência remota
     git commit -m "texto de marcação da adição ou alteração - Versão"
 Definir o destino remoto
     git remote add origin "branch de destino"
+    
 Enviar conteúdo para um branch principal - "galho ou tronco de caminho"
-    git push --set-upstream origin master
+    git push --set-upstream origin main
 Exibir como versões de arquivos
     git reflog
 
@@ -22,12 +29,11 @@ Voltar versões de arquivos
     git reset --hard "código reflog desejado"
 
 
-Apaga link do branch origin
-    gir remoto remover origem
+Excluir branch origin Local
+    git branch -d nome-da-branch
+    git push origin :nome-da-branch
 
-** Trabalhando com filial **
-**As novas funcionalidades da filial são adicionadas ao sistema que já existe **
-Lista como ramificação vinculada
+Lista as branch
     git branch
 Adiciona uma nova filial
     git branch "novo tronco ou projeto"
@@ -43,6 +49,8 @@ Mesclar os conteúdos de branch diferentes --> antes, baixar conteúdo remoto pa
 
 
 Boas dicas:
+https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
 https://github.com/rafaballerini/GitTutorial - Rafaela Ballerini
 https://youtu.be/kB5e-gTAl_s - Jhonatan de Souza
 https://docs.github.com/pt/get-started - GitHub Docs
+https://metring.com.br/como-remover-uma-branch-no-git
