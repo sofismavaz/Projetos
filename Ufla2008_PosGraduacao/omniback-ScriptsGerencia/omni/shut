@@ -1,0 +1,48 @@
+#!/bin/sh
+# 
+# Script para o Pre-exec do Omniback II 2.55
+# para parar os Bancos do Oracle. 
+# Chamada a partir do script /usr/suporte/omni/oracle_pre.sh
+#
+# HP-Brasil - 10/05/99
+# Marcia Ferreira
+#
+
+# Cria o arquivo de log
+
+datahora=`date +"%d%m%y"`
+arqlog="/usr/suporte/log/shutora.$datahora"
+> $arqlog
+chmod o+r $arqlog
+
+# Recupera o nome de todos os bancos
+
+instances=`grep ":Y$" /etc/oratab | cut -d: -f1 | grep -v "^#"`
+echo $instances >> $arqlog
+#instances=`cut -d: -f1 /etc/oratab | grep -v "^#"`
+
+# Para cada banco
+
+for banco in $instances
+do
+  ORACLE_SID=$banco
+  totproc=`ps -ef| grep ora_.*_${ORACLE_SID} | grep -v grep | wc -l`
+  if [ $totproc -gt 3 ]
+  then
+#    ORACLE_HOME=`grep ^oracle: /etc/passwd | cut -d: -f6`
+    ORACLE_HOME=/ora00/app/oracle/product/10GR2
+#    ORACLE_TERM=hp
+#    TERM=hp
+#	export ORACLE_SID ORACLE_TERM TERM ORACLE_HOME
+    export ORACLE_SID ORACLE_HOME
+    echo "=========    Shutdown do Banco de Dados $ORACLE_SID    ==========" >> $arqlog
+####    /ora00/app/oracle/product/7.3.4/bin/svrmgrl  >> $arqlog 2>&1  <<!
+    $ORACLE_HOME/bin/sqlplus /nolog  >> $arqlog 2>&1  <<!
+    connect / as sysdba 
+    alter session set events '10400 trace name context forever, level 1';
+    alter system checkpoint;
+    startup force restrict;
+    shutdown immediate
+!
+  fi
+done

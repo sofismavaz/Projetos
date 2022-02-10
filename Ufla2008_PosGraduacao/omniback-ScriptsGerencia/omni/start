@@ -1,0 +1,50 @@
+#!/bin/sh
+# 
+# Script para o Pos-exec do Omniback II 2.55
+# para inicializar os Bancos do Oracle. 
+# Chamada a partir do script /usr/suporte/omni/oracle_pos.sh
+#
+# HP-Brasil - 10/05/99
+# Marcia Ferreia
+#
+
+# Cria o arquivo de log
+
+datahora=`date +"%d%m%y"`
+arqlog="/usr/suporte/log/startora.$datahora"
+> $arqlog
+chmod o+r $arqlog
+
+# Recupera o nome de todos os bancos
+
+instances=`grep ":Y$" /etc/oratab | cut -d: -f1 | grep -v "^#"`
+
+# Para cada banco
+
+for banco in $instances
+do
+# ORACLE_HOME=`grep ^oracle: /etc/passwd | cut -d: -f6`
+  ORACLE_HOME=/ora00/app/oracle/product/10GR2
+  ORACLE_SID=$banco
+#  ORACLE_TERM=hp
+#  TERM=hp
+# export ORACLE_SID ORACLE_TERM TERM ORACLE_HOME
+  export ORACLE_SID 
+  echo "=========    Start do Banco de Dados $ORACLE_SID    ==========" >> $arqlog
+  $ORACLE_HOME/bin/sqlplus /nolog  >> $arqlog 2>&1  <<!
+  connect / as sysdba 
+  startup 
+!
+done
+
+# inicializando o Listener
+check_stat=`ps -ef | grep LISTENER | wc -l`;
+listener_num=`expr $check_stat`
+if [ $listener_num -lt 2 ]
+then
+  $ORACLE_HOME/bin/lsnrctl start >> $arqlog 2>&1
+fi
+
+# Inicializando o Context (InterMedia)
+# /ora00/app/oracle/product/7.3.4/bin/ctxstart >> $arqlog 2>&1
+# $ORACLE_HOME/bin/ctxstart >> $arqlog 2>&1

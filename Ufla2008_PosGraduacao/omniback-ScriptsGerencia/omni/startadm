@@ -1,0 +1,31 @@
+# 
+# Script para o Pos-exec do Omniback II 2.55
+# para inicializar os Bancos do Oracle. 
+# Chamada a partir do script /usr/suporte/omni/oracle_pos.sh
+#
+
+# Cria o arquivo de log
+
+datahora=`date +"%d%m%y%H%M"`
+arqlog="/usr/suporte/log/startora_adm.$datahora"
+> $arqlog
+
+# Recupera o nome de todos os bancos
+
+#instances=`grep ":Y$" /etc/oratab | cut -d: -f1 | grep -v "^#"`
+
+# Para cada banco
+
+#for banco in $instances
+#do
+#  ORACLE_HOME=`grep ^oracle: /etc/passwd | cut -d: -f6`
+  ORACLE_SID=adm
+  ORACLE_TERM=hp
+  TERM=hp
+  export ORACLE_SID ORACLE_TERM TERM
+  echo "=========    Start do Banco de Dados $ORACLE_SID    ==========" >> $arqlog
+  /ora00/app/oracle/product/8.0.5/bin/sqlplus /nolog  >> $arqlog 2>&1  <<!
+  connect / as sysdba
+  startup 
+!
+#done

@@ -1,0 +1,5 @@
+AuthName "Acesso Restrito ao Administrador do Sistema"
+AuthType Basic
+AuthUserFile /var/www/cgi-bin/.htpasswd
+  
+require valid-user

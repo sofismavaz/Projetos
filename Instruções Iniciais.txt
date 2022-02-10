@@ -1,0 +1,64 @@
+Criar pasta principal do projeto
+    git init
+    git status
+Adicionar arquivos
+    git add . ou "nome do arquivos"
+Gravar na base local as alterações
+    git commit "texto de marcação da adição ou alterações - Versão"
+Criar ligação entre a base local de arquivos com a base remota
+    git config --global user.email "email@dominio"
+    git config --global user.name "nome a ser relacionado com a adição ou alterações - Versão"
+Preparação de arquivos para transferência remota
+    git commit -m "texto de marcação da adição ou alterações - Versão"
+Definir o destino remoto 
+    git remote add origin "branch de destino"
+Enviar conteúdo para a branch principal - "galho ou tronco de caminho"
+    git push --set-upstream origin master
+Visualizar as versões de arquivos 
+    git reflog
+
+
+Voltar versões de arquivos
+    git reset --hard "código reflog desejado"
+
+
+Apaga link do branch origin
+    gir remote remove origin
+
+** Trabalhando com as branch **
+** As branch são novas funcionalidades a serem adicionads ao sistema que já existe **
+Lista as branch vinculadas
+    git branch
+Adiciona uma nova branch
+    git branch "novo tronco ou projeto"
+Mudar para a branch desejada
+    git checkout "nova branch"
+Gravar as alterações em uma nova branch
+    git push --set-upstream origin "branch desejada"
+Mesclar os conteúdo de branch diferentes --> antes, baixar conteúdo remoto para o local
+    git pull
+    git checkout "branch principal ou branch a ser atualizada com nova versão"
+    git merge "branch que contém o conteúdo a ser adicionado a branch principal"
+    git push
+
+
+
+
+
+
+Boas dicas: 
+https://github.com/rafaballerini/GitTutorial - Rafaela Ballerini
+https://youtu.be/kB5e-gTAl_s - Jhonatan de Souza
+https://docs.github.com/pt/get-started - GitHub Docs
+https://metring.com.br/como-remover-uma-branch-no-git
+
+
+
+
+
+
+
+
+
+
+
