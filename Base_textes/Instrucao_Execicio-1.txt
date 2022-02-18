@@ -1,9 +1,11 @@
 Instruções:
 
+Baixar do Repositório GIT https://github.com/sofismavaz/Projetos/tree/main/Base_textes, os arquivos de massa de dados;
 
-Criar uma rotina que:
-1- leia o arquivo .CSV, a partir da tela HTML;
-2- insira os registros numa base Mysql;
-3- defina as chaves primárias que inteligam os arquivos
-4- mostre os registros relacionados
+Criar uma rotina, utilizando as ferramentas Python3, Mysql e HTML para:
+
+1- ler os arquivos .CSV, a partir da interação com o usuário numa tela de entrada HTML;
+2- insirir os registros numa base Mysql;
+3- definir as chaves primárias que inteligam os arquivos: Contrato, Empenho
+4- mostrar na tela HTML os registros relacionados de cada contrato
 
