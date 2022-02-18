@@ -1,0 +1,9 @@
+Instruções:
+
+
+Criar uma rotina que:
+1- leia o arquivo .CSV, a partir da tela HTML;
+2- insira os registros numa base Mysql;
+3- defina as chaves primárias que inteligam os arquivos
+4- mostre os registros relacionados
+
