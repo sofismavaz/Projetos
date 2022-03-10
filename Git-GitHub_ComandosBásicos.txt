@@ -1,3 +1,4 @@
+** Configurar ambiente de trabalho **
 Criar pasta principal do projeto
     git init
     git status
@@ -12,33 +13,36 @@ Vinculação entre a base local com o Repositório Remot GitHub
     git remote add origin <link do repositório remoto>
 Associando um e-mail à sua chave GPG /SSH
     https://docs.github.com/en/authentication/managing-commit-signature-verification/associating-an-email-with-your-gpg-key
-
-
-Preparação de arquivos para transferência remota
-    git commit -m "texto de marcação da adição ou alteração - Versão"
-Definir o destino remoto
-    git remote add origin "branch de destino"
-    
 Enviar conteúdo para um branch principal - "galho ou tronco de caminho"
     git push --set-upstream origin main
+
+
+** Ciclo de manutenção dos arquivos da base Git/GitHub
+1- Baixar atualizações da base remota
+    git pull
+2- Adicionar versões atualizadas a base local
+    git add .
+3- Gravar versões atualizadas a base local
+    git comiit -m "descrição do demarcador"
+4- Envio da base local atualizada para a base remota
+    git push origin HEAD ou git push origin HEAD:main
+
+** Comandos que auxiliam na manutenção da base de arquivos
 Exibir como versões de arquivos
     git reflog
-
-
 Voltar versões de arquivos
     git reset --hard "código reflog desejado"
-
+Lista as branch
+    git branch
+Adiciona uma nova branch
+    git branch "novo tronco ou projeto"
+Mudar para a branch desejado
+    git checkout "nova branch"
 
 Excluir branch origin Local
     git branch -d nome-da-branch
     git push origin :nome-da-branch
 
-Lista as branch
-    git branch
-Adiciona uma nova filial
-    git branch "novo tronco ou projeto"
-Mudar para o ramo desejado
-    git checkout "nova branch"
 Gravar as mudanças em uma nova filial
     git push --set-upstream origin "branch desejado"
 Mesclar os conteúdos de branch diferentes --> antes, baixar conteúdo remoto para o local

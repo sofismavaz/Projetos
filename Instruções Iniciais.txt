@@ -40,7 +40,8 @@ Mesclar os conteúdo de branch diferentes --> antes, baixar conteúdo remoto par
     git checkout "branch principal ou branch a ser atualizada com nova versão"
     git merge "branch que contém o conteúdo a ser adicionado a branch principal"
     git push
-
+Remover branch git
+    git branch -d nome-da-branch
 
 
 
