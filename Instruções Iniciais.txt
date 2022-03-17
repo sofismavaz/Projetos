@@ -19,7 +19,12 @@ Enviar conteúdo para a branch principal - "galho ou tronco de caminho"
     git push --set-upstream origin master
 Visualizar as versões de arquivos 
     git reflog
-
+Baixar arquivos da nuvem Github
+    git pull https://github.com/usuário_e_branch_da_Origem
+    
+Merge - juntar o conteúdo de duas branch 
+    git checkout "branch de conteúdo original, antes das alterações e manutenção"
+    git merge "branch onde estão as alterações a serem unidas a primeira ramificação"
 
 Voltar versões de arquivos
     git reset --hard "código reflog desejado"
