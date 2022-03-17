@@ -41,7 +41,7 @@ Adiciona uma nova branch
     git branch "novo tronco ou projeto"
 Mudar para a branch desejada
     git checkout "nova branch"
-Gravar as alterações em uma nova branch
+Gravar as alterações em uma nova branch 
     git push --set-upstream origin "branch desejada"
 Mesclar os conteúdo de branch diferentes --> antes, baixar conteúdo remoto para o local
     git pull
@@ -65,7 +65,7 @@ https://metring.com.br/como-remover-uma-branch-no-git
 
 
 
-
+https://github.com/sofismavaz/Projetos.git
 
 
 
