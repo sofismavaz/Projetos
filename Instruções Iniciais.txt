@@ -1,5 +1,6 @@
 Criar pasta principal do projeto
 Tutorial github → https://github.com/gustavo491/Treinamento-Vue.git
+https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Trabalhando-de-Forma-Remota
 
     git init
     git status
