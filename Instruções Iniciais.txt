@@ -53,9 +53,10 @@ Remover branch git
 
 
 https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
-Alternando URLs remotos de SSH para HTTPS
+Adicionando um repositório remoto
+    git remote add origin https://github.com/user/repo.git
+Altere a URL do seu controle remoto de SSH para HTTPS com o git remote set-urlcomando.
     git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
-   Altere a URL do seu controle remoto de HTTPS para SSH com o git remote set-urlcomando
 
 Removendo um repositório remoto
     git remote rm "branch" ou URL
