@@ -15,12 +15,15 @@ Preparação de arquivos para transferência remota
     git commit -m "texto de marcação da adição ou alterações - Versão"
 Definir o destino remoto 
     git remote add origin "branch de destino"
+
+Baixar arquivos da nuvem Github
+    git pull https://github.com/usuário_e_branch_da_Origem
+
 Enviar conteúdo para a branch principal - "galho ou tronco de caminho"
     git push --set-upstream origin master
 Visualizar as versões de arquivos 
     git reflog
-Baixar arquivos da nuvem Github
-    git pull https://github.com/usuário_e_branch_da_Origem
+
     
 Merge - juntar o conteúdo de duas branch 
     git checkout "branch de conteúdo original, antes das alterações e manutenção"
