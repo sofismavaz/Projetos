@@ -1,6 +1,8 @@
 import os
 
 # cam = '/home/lrocio/Projetos'
+
+
 cam = captura.get('/home/lrocio/Projetos')
 
 def mostraDir(xargs):

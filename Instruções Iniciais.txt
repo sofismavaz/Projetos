@@ -16,8 +16,14 @@ Preparação de arquivos para transferência remota
 Definir o destino remoto 
     git remote add origin "branch de destino"
 
-Baixar arquivos da nuvem Github
+Baixar arquivos na breanch da nuvem Github
     git pull https://github.com/usuário_e_branch_da_Origem
+
+Conectar-se ao GitHub com SSH
+    https://docs.github.com/pt/authentication/connecting-to-github-with-ssh
+    Adicionar a 
+    testar a conexão através do SSH: ssh -T -p 443 git@ssh.github.com
+
 
 Enviar conteúdo para a branch principal - "galho ou tronco de caminho"
     git push --set-upstream origin master
