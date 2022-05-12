@@ -1,19 +1,22 @@
 library(shiny)
 
-nameui <- function(id) {
-    ns <- NS(id)
-    tagList(
-    
-        )
-    }
+ui <- fluidPage(
+    titlePanel("title"),
+    sidebarLayout(
+        sidebarPanel(),
+        mainPanel()
+    )
+)
 
-name <- function(input, output, session) {
-    ns <- session$ns
+server <- function(input, output, session) {
+
 }
 
-# Copy in UI
-nameui("nameui")
+shinyApp(ui, server)
 
-# Copy in server
-callModule(name, "nameui")
+
+setwd("~/Projetos")
+
+pasta <- getwd()
+
 
