@@ -65,39 +65,6 @@ plot(x, cos(x), type = "l")
 
 library(ggplot2)
 
-###### Criação de Dataframes
-
-## Opção 1
-fornecedores<-c("A","B","E","D","X")
-quant_Jan<-c(320,230,100,340,10)
-quant_Fev<-c(220,630,60,50,60)
-quant_Mar<-c(520,430,100,34,10)
-
-resumo<-cbind(fornecedores,quant_Jan,quant_Fev,quant_Mar)
-resumo_l<-rbind(fornecedores,quant_Jan,quant_Fev,quant_Mar)
-
-r1 <- rbind(quant_Jan)
-
-r11 <- as.character(quant_Jan)
-r12 <- as.numeric(quant_Jan)
-
-## Opção 2
-resumo_df<-as.data.frame(resumo)
-
-dados <- data.frame(fornecedores=c("A","B","E","D","X"),
-            quant_Jan=c(320,230,100,340,10),
-           quant_Fev=c(220,630,60,50,60),
-           quant_Mar=c(520,430,100,34,10))
-
-## Opção 3
-# dados<-data.frame(V1=fornecedores,V2=quant_Jan,V3=quant_Fev)
-
-
-nrow(resumo)
-
-for (i in 1:nrow(dados)) {
- print()
-}
 
 str(r12)
 
@@ -136,4 +103,44 @@ dados_1[,2]
 setwd("/home/lrocio/Projetos")
 
 s1 <- (2*4)+(3**2)/(4.1-1.3)
+
+###### Criação de Dataframes
+
+## Opção 1
+fornecedores<-c("Aliança","Boltão","Elite","Domus","Xgurio")
+quant_Jan<-c(320,230,100,340,10)
+quant_Fev<-c(220,630,60,50,60)
+quant_Mar<-c(520,430,100,34,10)
+
+resumo<-cbind(fornecedores,quant_Jan,quant_Fev,quant_Mar)
+resumo_l<-rbind(fornecedores,quant_Jan,quant_Fev,quant_Mar)
+
+r1 <- rbind(quant_Jan)
+
+r11 <- as.character(quant_Jan)
+r12 <- as.numeric(quant_Jan)
+
+## Opção 2
+resumo_df<-as.data.frame(resumo)
+
+dados_r1 <- data.frame(fornecedores=c("A","B","E","D","X"),
+            quant_Jan=c(320,230,100,340,10),
+           quant_Fev=c(220,630,60,50,60),
+           quant_Mar=c(520,430,100,34,10))
+
+## Opção 3
+# dados<-data.frame(V1=fornecedores,V2=quant_Jan,V3=quant_Fev)
+
+dados <- data.frame(fornecedores, quant_Jan, quant_Fev, quant_Mar)
+
+nrow(resumo)
+
+for (i in 1:nrow(dados)) {
+ # print(dados$quant_Jan[i])
+ cat("valor da linha: ", dados$quant_Jan[i], "do Fornecedor: ", dados$fornecedores[i], "Valor da variável i: ", i, "\n")
+
+}
+
+dados$fornecedores
+
 
