@@ -14,6 +14,5 @@ fn.ex <- function() {
     else cat("Ihh, tá mal de escolha...\n")
     return(invisible())
 }
-￼
 fn.ex()
 
