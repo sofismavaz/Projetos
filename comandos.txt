@@ -12,3 +12,9 @@ sudo snap install pycharm-community --classic
 
 # para uso do editor Visual Studio
 
+Execução do my_shiny_app
+https://www.r-bloggers.com/2021/02/framework-for-shiny-apps-in-r-packages/
+#' Linha execução do App
+#' @export 
+#' my_shiny_app <- function(){
+#'    shiny::runApp(appDir = system.file('shiny', package = ))

@@ -1,0 +1,6 @@
+{
+    "workbench.editor.autoLockGroups": {
+        "default": true,
+        "vscode.markdown.preview.editor": true
+    }
+}
