@@ -8,9 +8,7 @@ setwd("/home/lrocio/Projetos/RMarkdown/CNJ_Curso")
 
 ui <- fluidPage(
     splitLayout(
-        div_create("OBJ1", "gray"),
-        div_create("OBJ2", "gray"),
-        div_create("OBJ3", "yellow ")
+        
     )
 )
 
@@ -21,17 +19,5 @@ server <- shinyServer(
     }
 )
 
-# Essa função é para criar blocos mais fáceis de ver.
-div_create <- function(content, color) {
-    css <- c(sprintf("background-color: %s;", color),
-             "margin: 1px;",
-             "height: 4em;")
-    div(content,
-        style = paste0(css, collapse = " "))
-}
-
 # Para qualquer `ui`, abra a aplicação com isso.
 shinyApp(ui = ui, server = server)
-
-
-
