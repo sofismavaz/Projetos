@@ -1,0 +1,22 @@
+library(shiny)
+
+ui <- fluidPage(
+    titlePanel("title"),
+    sidebarLayout(
+        sidebarPanel(),
+        mainPanel()
+    )
+)
+
+server <- function(input, output, session) {
+
+}
+
+shinyApp(ui, server)
+
+
+setwd("~/Projetos")
+
+pasta <- getwd()
+
+
