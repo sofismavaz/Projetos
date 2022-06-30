@@ -1,0 +1,58 @@
+---
+title: "Exercícios e práticas"
+output: html_document
+runtime: shiny
+autor: "Lucir Vaz"
+---
+
+
+A linguagem Markdown é uma linguagem de markup  que tem como propósito possibilitar a **formatação**  de documentos de *texto* simples. 
+- A principal
+- diferença entre M
+1. Sobre a linguagem Markdown
+1. complete as palavras faltantes.
+
+[link da UFPD](https://moodle.c3sl.ufpr.br/course/view.php?id=503&section=7)
+
+
+```{r eruptions, echo=FALSE}
+selectInput(
+  'breaks', label = 'Number of bins:',
+  choices = c(10, 20, 35, 50), selected = 20
+)
+
+renderPlot({
+  par(mar = c(4, 4, .1, .5))
+  hist(
+    faithful$eruptions, as.numeric(input$breaks),
+    col = 'gray', border = 'white',
+    xlab = 'Duration (minutes)', main = ''
+  )
+})
+```
+
+
+﻿Nome do usuário,Sobrenome do usuário,E-mail do usuário,ID Externo,Grupos de usuários,ID do curso,Título do curso,Localidade do curso,Duração do curso,% Marcado como concluído,Minutos de vídeo
+
+```{rfig.cap = "texto"}
+![link da UFPD](/home/lrocio/Imagens/s1.jpeg)
+```
+
+`warning = FALSE`
+
+`include = FALSE`
+
+`eval = FALSE`
+
+`results = 'asis'`
+
+`message = FALSE`
+
+```{r}
+# execute code if the date is later than a specified day
+do_it = Sys.Date() > '2018-02-14'
+```
+
+```{r, eval=do_it}
+x = rnorm(100)
+```
