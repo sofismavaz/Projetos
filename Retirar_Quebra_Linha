@@ -1,0 +1,73 @@
+Removendo Quebras de Linha com sed: Um Guia Completo
+Entendendo o Problema:
+
+Você deseja utilizar o comando sed para remover quebras de linha em um arquivo, mas apenas quando não houver um determinado caractere (no seu caso, o ponto ".") na linha. Isso significa que você quer juntar linhas que não contenham o caractere "." em uma única linha.
+
+Solução com sed:
+
+Para realizar essa tarefa, utilizaremos o comando sed com a seguinte expressão regular:
+
+Bash
+sed '/[^.]$/N;s/\n//g' arquivo.txt > arquivo_saida.txt
+Use o código com cuidado.
+
+Explicando a Expressão Regular:
+
+/[^.]$/:
+[^.]: Qualquer caractere que não seja um ponto.
+$: Final da linha.
+Essa parte da expressão encontra todas as linhas que não terminam com um ponto.
+N:
+Lê a próxima linha e a anexa ao padrão espaço. Isso permite que você trabalhe com duas linhas de cada vez.
+s/\n//g:
+s: Substituição.
+\n: Quebra de linha.
+g: Substitui todas as ocorrências na linha.
+Essa parte remove todas as quebras de linha encontradas no padrão, juntando as duas linhas em uma só.
+Exemplo Completo:
+
+Bash
+# Supondo que você tenha um arquivo chamado "texto.txt" com o seguinte conteúdo:
+linha1
+linha2.
+linha3
+linha4.
+linha5
+
+# Executando o comando sed:
+sed '/[^.]$/N;s/\n//g' texto.txt > texto_saida.txt
+
+# O arquivo "texto_saida.txt" conterá:
+linha1linha2.
+linha3linha4.
+linha5
+Use o código com cuidado.
+
+Como Funciona:
+
+O comando sed lê a primeira linha.
+Se a linha não terminar com um ponto, a próxima linha é lida e as duas são combinadas em um único padrão.
+Todas as quebras de linha dentro desse padrão são removidas.
+O processo se repete para as próximas linhas.
+Observações:
+
+Arquivo de Saída: O resultado é direcionado para um novo arquivo (texto_saida.txt) para evitar sobrescrever o arquivo original.
+Outras Expressões Regulares: Você pode adaptar a expressão regular para atender a diferentes necessidades. Por exemplo, para remover quebras de linha apenas se a linha estiver vazia, use /^$/N;s/\n//g.
+Considerações: Essa solução assume que você deseja juntar linhas consecutivas que não terminam com um ponto. Se você tiver requisitos mais complexos, pode ser necessário ajustar a expressão regular ou utilizar outras ferramentas.
+Utilizando em Scripts:
+
+Você pode incorporar esse comando em scripts de shell ou em programas de outras linguagens para automatizar a tarefa. Por exemplo, em um script de Bash:
+
+Bash
+for arquivo in *.txt; do
+    sed '/[^.]$/N;s/\n//g' "$arquivo" > "${arquivo}_saida.txt"
+done
+Use o código com cuidado.
+
+Este script irá processar todos os arquivos .txt no diretório atual.
+
+Outras Opções:
+
+Awk: A ferramenta awk também pode ser utilizada para realizar essa tarefa, oferecendo mais flexibilidade para manipulação de texto.
+Linguagens de Programação: Linguagens como Python, Perl e Ruby possuem bibliotecas para trabalhar com arquivos de texto e expressões regulares, permitindo uma abordagem mais personalizada.
+Ao utilizar este comando, você poderá eficientemente remover quebras de linha em seus arquivos de texto, melhorando a legibilidade e facilitando o processamento posterior dos dados.
