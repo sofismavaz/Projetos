@@ -12,3 +12,46 @@ sudo snap install pycharm-community --classic
 
 # para uso do editor Visual Studio
 
+#!/bin/bash
+
+# Diretório de origem (substitua por seu diretório)
+diretorio_origem="/caminho/para/seu/diretorio"
+
+# Diretório de destino
+diretorio_destino="$HOME/pasta-destino"
+
+# Verifica se o diretório de destino existe, caso contrário, cria
+if [ ! -d "$diretorio_destino" ]; then
+  mkdir -p "$diretorio_destino"
+fi
+
+# Copia todos os arquivos recursivamente para o diretório de destino
+find "$diretorio_origem" -type f -exec cp {} "$diretorio_destino" \;
+
+Explicando o script
+Definindo os diretórios:
+
+diretorio_origem: Substitua por o caminho completo do diretório onde você deseja iniciar a busca pelos arquivos.
+diretorio_destino: O caminho para a pasta de destino será o seu diretório home ($HOME) concatenado com o nome da pasta desejada.
+Criando o diretório de destino:
+
+O comando if [ ! -d "$diretorio_destino" ]; then verifica se o diretório de destino já existe.
+Se não existir, o comando mkdir -p "$diretório_destino" cria o diretório e todos os subdiretórios necessários.
+Copiando os arquivos:
+
+find "$diretorio_origem" -type f busca por todos os arquivos (tipo f) dentro do diretório de origem e suas subpastas.
+-exec cp {} "$diretorio_destino" \; executa o comando cp para cada arquivo encontrado, copiando-o para o diretório de destino. O {} representa o nome do arquivo encontrado.
+Como usar o script
+Salvar como um arquivo: Salve o script como um arquivo com extensão .sh, por exemplo, copiar_arquivos.sh.
+Tornar o script executável: Abra o terminal e navegue até o diretório onde você salvou o script. Em seguida, execute o comando chmod +x copiar_arquivos.sh.
+Executar o script: Para executar o script, digite no terminal: ./copiar_arquivos.sh.
+Considerações adicionais
+Substitua os caminhos: Certifique-se de substituir /caminho/para/seu/diretorio pelo caminho correto do seu diretório de origem.
+Cuidado com os nomes de arquivos: Se houver arquivos com o mesmo nome em diferentes subpastas, os arquivos mais recentes sobrescreverão os anteriores no diretório de destino.
+Opções adicionais para o comando find: Você pode adicionar mais opções ao comando find para filtrar os arquivos a serem copiados, como por exemplo:
+-name "*.txt": Para copiar apenas arquivos com extensão .txt.
+-mtime -7: Para copiar apenas arquivos modificados nos últimos 7 dias.
+Exemplo com filtro de arquivos:
+
+Bash
+find "$diretorio_origem" -name "*.jpg" -exec cp {} "$diretorio_destino" \;
