@@ -55,3 +55,12 @@ Exemplo com filtro de arquivos:
 
 Bash
 find "$diretorio_origem" -name "*.jpg" -exec cp {} "$diretorio_destino" \;
+
+# Copia todos os arquivos recursivamente para o diretório de destino
+find "$diretorio_origem" -type f -exec cp {} "$diretorio_destino" \;
+
+
+
+
+
+
