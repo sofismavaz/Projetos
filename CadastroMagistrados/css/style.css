@@ -1,0 +1,13 @@
+.label_e_input {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1em;
+    padding: 1em;
+    grid-column: 2;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    border-radius: 5px;
+}
+
+.h5 {
+    background: red;
+}

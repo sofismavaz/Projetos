@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Magistrados</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" /> 
+</head>
+    
+<body class="container-fluid">
+<div class="row mt-3" id="divMeuLogin">
+    <div class="col text-center">
+        <h5>Cadastro Magistrados (Exigência CNJ)</h5>
+    </div>
+    <div class="row-mt-1">
+        <div class="col">
+        <label>Descrição Pessoal</label>
+            <input class="form-control" type="text" id="cpf" placeholder="Seu CPF" />
+            <input class="form-control" type="text" id="nome" placeholder="Nome" />
+            <input class="form-control" type="text" id="naturalidade" placeholder="Naturalidade" />
+            <input class="form-control" type="date" id="data_nascimento" placeholder="data de nascimento" />
+            <input class="form-control" type="text" id="sexo" placeholder="Sexo" />
+            <input class="form-control" type="text" id="identidade_genero" placeholder="Identidade o gênero" />
+            <input class="form-control" type="text" id="raca_cor" placeholder="Cor ou Raça" />
+            <input class="form-control" type="text" id="deficiencia" placeholder="Caso possua alguma deficiência, Qual?" />
+        </div>
+        <div class="col">
+        <label>Identificação Pessoal</label>
+            <input class="form-control" type="email" id="e_mail" placeholder="E-mail pessoal" />
+            <input class="form-control" type="text" id="identidade" placeholder="Identidade (RG)"/>
+            <input class="form-control" type="text" id="orgao_expedidor" placeholder="Órgão expeditor da RG" />
+            <input class="form-control" type="text" id="uf_emissor" placeholder="UF de expedição da RG" />
+            <input class="form-control" type="date" id="data_emissao" placeholder="data de emissão da RG" />
+            <input class="form-control" type="text" id="pis_pasep" placeholder="PIS/PASEP" />
+            <input class="form-control" type="text" id="certificado_militar" placeholder="Tem Certificado Militar? Qual?" />
+            <input class="form-control" type="text" id="titulo_eleitor" placeholder="Título Eleitoral" />
+            <input class="form-control" type="text" id="municipio" placeholder="Município Domicilio Eleitoral" />
+            <input class="form-control" type="text" id="zona" placeholder="Zona Título Eleitoral" />
+            <input class="form-control" type="text" id="secao" placeholder="Seção Eleitoral" />
+            <input class="form-control" type="date" id="data_expedicao" placeholder="Data expedição do Título" />
+            <input class="form-control" type="date" id="data_ultima_votacao" placeholder="data da última votação" />
+        </div>
+        <div class="col">
+        <label>Dados Familiares</label>      
+            <input class="form-control" type="text" id="estado_civil" placeholder="Estado Civil" />
+            <input class="form-control" type="text" id="nome_conjuge" placeholder="Caso tenha Conjuge, Qual o Nome?" />
+            <input class="form-control" type="text" id="local_trabalho_conjuge" placeholder="Local trabalho Conjuge" />
+            <input class="form-control" type="text" id="nome_pai" placeholder="Nome do Pai" />
+            <input class="form-control" type="text" id="nome_mae" placeholder="Nome da Mãe" />
+            <input class="form-control" type="text" id="qtde_dependes" placeholder="Tem dependentes? Quantos?" />
+            <input class="form-control" type="text" id="nome_dependentes" placeholder="Qual o nome dos dependentes?" />
+        </div>
+        <div class="col">
+        <label>Domicílio</label> 
+            <input class="form-control" type="text" id="endereco" placeholder="Endereço" />
+            <input class="form-control" type="text" id="bairro" placeholder="Bairro" />
+            <input class="form-control" type="text" id="cidade" placeholder="Cidade" />
+            <input class="form-control" type="text" id="uf" placeholder="UF" />
+            <input class="form-control" type="text" id="cep" placeholder="CEP" />
+            <input class="form-control" type="tel" id="telefone" placeholder="Telefone de contato (Fixo ou Móvel)" />
+            <input class="form-control" type="tel" id="celular" placeholder="Celular Pessoal" />   
+        </div>
+        <div class="col">
+        <label>Dados Profissionais</label> 
+            <input class="form-control" type="text" id="cargo" placeholder="Cargo atual" />
+            <input class="form-control" type="text" id="regime_cotas" placeholder="Ingressou por regime de cotas?" />
+            <input class="form-control" type="date" id="data_posse" placeholder="Data da posse" />
+            <input class="form-control" type="text" id="orgao_julgador_lotacao_magistrado" placeholder="Qual o Órgão julgador da lotação?" />
+            <input class="form-control" type="text" id="situacao_profissional_atual" placeholder="Qual a situação prossional atual?" />
+            <input class="form-control" type="date" id="data_inicio_situacao" placeholder="Data de início da situação atual?" />
+            <input class="form-control" type="date" id="data_saida_situacao" placeholder="Caso tenha saído, qual a data?" />  
+        </div>
+        <div class="col">
+        <label>Formação Acadêmica</label> 
+            <input class="form-control" type="text" id="nivel_graduacao" placeholder="Nível de graduação" />
+            <input class="form-control" type="text" id="area_especializacao" placeholder="Área de especialização" />
+            <input class="form-control" type="text" id="participacao_conselho" placeholder="Participa de Conselho?" />
+            <input class="form-control" type="text" id="instituicao" placeholder="Qual a Instituição?" />
+        </div>
+        <div class="col">
+        <label>Atividade Acadêmica</label> 
+            <input class="form-control" type="text" id="atividade_docente" placeholder="Tens atividade acadêmica?" />
+            <input class="form-control" type="text" id="instituicao_ensino" placeholder="Qual a Instituição?" />
+            <input class="form-control" type="text" id="horario_disciplina" placeholder="Qual(ais) horário(s)" />
+        </div>
+        <div class="col">
+        <label>Dados Bancários</label>
+            <input class="form-control" type="text" id="banco" placeholder="Número do banco" />
+            <input class="form-control" type="text" id="agencia" placeholder="Número da agência" />
+            <input class="form-control" type="text" id="conta" placeholder="Número da conta corrente" />
+            <input class="form-control" type="text" id="operacao" placeholder="operação" />
+        </div>
+    </div>
+</div>
+
+<div class='label_e_input'>
+    <button class="ui-button ui-widget ui-corner-all" onclick="create_fron_end()">Salvar</button>
+</div>
+</body>
+
+<script>
+function executaSalvar() { // Origem no Frontend
+    var objParaLancar = {}
+    var meuInput = document.querySelectorAll('.meuInput')
+
+    meuInput.forEach((input) => {
+    objParaLancar[input.name] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    objParaLancar[input. ] = input.value
+    
+    })
+
+    console.log(objParaLancar)
+
+//      return
+
+//      var inputValue = document.getElementById("inputItem").value
+
+    google.script.run.withSuccessHandler(function(retorno){
+    }).salvar(inputValue) // Lançar no beckend
+    }
+</script>
+
+</html>
+

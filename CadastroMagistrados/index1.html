@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <base target="_top" />
+    <link
+      rel="stylrsheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <input type="text" id="nome" />
+    <input type="text" id="cpf" />
+    <button onclick="disparaAoClicar()">Lançar no Google Sheets</button>
+  </body>
+
+  <script>
+    function disparaAoClicar() {
+      var nome = document.getElementById("nome").value;
+      var cpf = document.getElementById("cpf").value;
+      //console.log(dados);
+      //alert("Eu tô aqui 1"); 
+
+      $.ajax({
+        type: "POST",
+        data: {
+          dados: nome,
+          cpf,
+        },      
+        url: "https://script.google.com/macros/s/AKfycbyX1dJvbRkiEHYcd7zdDap9OmgsU99sZORK209mu5uJXIPQM2mTdUoSWeD9bBF2P8hj4g/exec",
+      });
+    }
+  </script>
+</html>
