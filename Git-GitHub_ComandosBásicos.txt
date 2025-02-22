@@ -51,6 +51,13 @@ Mesclar os conteúdos de branch diferentes --> antes, baixar conteúdo remoto pa
     git merge "branch que contém o conteúdo a ser adicionado a branch principal"
     git push
 
+** Atualizando um clone local após uma alteração no nome de uma ramificação
+link:https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch
+    git branch -m OLD-BRANCH-NAME NEW-BRANCH-NAME
+    git fetch origin
+    git branch -u origin/NEW-BRANCH-NAME NEW-BRANCH-NAME
+    git remote set-head origin -a
+
 
 Boas dicas:
 https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
