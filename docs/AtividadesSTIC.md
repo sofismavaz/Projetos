@@ -1,8 +1,33 @@
-# Infeaestrutura  
+# Secretaria de Tecnologia da Informação e Comunicação
 ```
 
-A equipe de trabalho deverá estar preparada para a execução das atividades que exigirem a continuidade da prestação dos serviços do Tribunal, mantendo serviços, inovando em tecnologia e proporcionando a continuidade da disponibilidade do ambiente operacional tecnológico.
+```
 
+# Gabinete da STIC
+```
+
+```
+
+# Núcleo de Planejamento de TIC
+```
+A equipe deverá planejar as atividades da STIC, conciliando com as metas e objetivos Institucionais, 
+```
+
+# Assessoria de Inteligência de Dados
+```
+
+```
+
+# 
+```
+
+```
+
+
+
+# Infraestrutura  
+```
+A equipe de trabalho deverá estar preparada para a execução das atividades que exigirem a continuidade da prestação dos serviços do Tribunal, mantendo serviços, inovando em tecnologia e proporcionando a continuidade da disponibilidade do ambiente operacional tecnológico.
 
 ```
 
@@ -37,11 +62,9 @@ A equipe de trabalho deverá estar preparada para a execução das atividades qu
 . gestão central de atendimento de serviços corporativos;  
 
 
-# Soluções Corporativas  
-
+# Sistemas Corporativos  
 ```
 A equipe deverá estar preparada para desenvolver soluções tecnológicas próprias, manter sistemas e bases de dados operacionais, realizar ajustes, correções e extração de dados que possam contribuir para a evolução da gfestão da informação.
-
 ```
 
 . pesquisa e inovação para adoção na Instituição:   
@@ -55,10 +78,10 @@ A equipe deverá estar preparada para desenvolver soluções tecnológicas próp
 . consultoria técnica e de integração para adoção e implantação de plataforma de deenvolvimento de softwares corporativos;  
 
 
-# Gestão da Logística e dos Sistemas Eleitorais
+# Gestão da Logística e da Eleição
 
 ```
-A equipe deverá estar preparada para operacionalizar as atividades relativas ao aceite, testes e instalação de máquinas e equipamentos de tecnologia, realizar a operacionalização dos sistemas, distribuição, controles e conferências de materiais envolvidos na execução do pleito eleitoral.
+A equipe deverá estar preparada para operacionalizar as atividades relativas ao aceite, testes e instalação de máquinas e equipamentos de tecnologia, e, realizar a distribuição, controles e conferências de materiais envolvidos na execução e operacionalização dos sistemas eleitorais.
 
 ```
 
