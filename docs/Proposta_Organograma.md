@@ -97,6 +97,8 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
 
 #### 1.03 Assessoria de Inteligência de Dados
 - **Função Principal**: Gestão de dados institucionais, desenvolvimento de painéis de *Business Intelligence* (BI), ciência de dados e apoio à tomada de decisão estratégica [7, 47, 283].
+- Ligado diretamente a Secretaria, sob a condução do servidor(a) exercendo o Cargo em Comissão (CJ)
+
 - **Atribuições**:
   - Projetar, construir e manter painéis e dashboards gerenciais em BI para monitoramento de indicadores de desempenho do Tribunal e das eleições [7, 283, 285].
   - Implementar políticas de governança de dados, qualidade de dados e interoperabilidade, atendendo aos requisitos do CNJ (DataJud) e da LGPD [7, 33, 38, 281].
@@ -105,10 +107,9 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
 ---
 
 # Infraestrutura  
-```
 A equipe de trabalho deverá estar preparada para a execução das atividades que exigirem a continuidade da prestação dos serviços do Tribunal, mantendo serviços, inovando em tecnologia e proporcionando a continuidade da disponibilidade do ambiente operacional tecnológico.
 
-```
+- Ligado diretamente a Secretaria, sob a condução do servidor(a) exercendo o Cargo em Comissão (CJ)
 
 . pesquisa e inovação:  
     . de hardware do parque computacional;  
@@ -142,9 +143,9 @@ A equipe de trabalho deverá estar preparada para a execução das atividades qu
 
 
 # Sistemas Corporativos  
-```
 A equipe deverá estar preparada para desenvolver soluções tecnológicas próprias, manter sistemas e bases de dados operacionais, realizar ajustes, correções e extração de dados que possam contribuir para a evolução da gfestão da informação.
-```
+
+- Ligado diretamente a Secretaria, sob a condução do servidor(a) exercendo o Cargo em Comissão (CJ)
 
 . pesquisa e inovação para adoção na Instituição:   
     . de softwares corporativos de parceiros;  
@@ -158,12 +159,12 @@ A equipe deverá estar preparada para desenvolver soluções tecnológicas próp
 
 
 # Gestão da Logística e da Eleição
+A equipe deverá estar preparada para elaborar o planejamento do pleito eleitoral, seja de eleição oficial ou comunitária.
 
-```
-A equipe deverá estar preparada para operacionalizar as atividades relativas ao aceite, testes e instalação de máquinas e equipamentos de tecnologia, e, realizar a distribuição, controles e conferências de materiais envolvidos na execução e operacionalização dos sistemas eleitorais.
+A equipe deverá estar preparada para operacionalizar as atividades relativas ao aceite, testes e instalação de máquinas e equipamentos de microinformática:(equipamentos, urnas e acessórios), sua distribuição, controles e conferências de materiais, que estão diretamente ou indiretamente envolvidos na execução e operacionalização dos sistemas eleitorais.
 
-```
-
+- Ligado diretamente a Secretaria, sob a condução do servidor(a) exercendo o Cargo em Comissão (CJ)
+- será composta por 3 (três) unidades subordinadas, que deverão exercutar as atividades de:
 . manutenção e conservação de hardwares;  
     . urnas;  
     . acessórios;  
@@ -181,16 +182,28 @@ A equipe deverá estar preparada para operacionalizar as atividades relativas ao
 
 
 # Comissão Permanente de Planejamento e Gestão do Pleito eleitoral
-```
 Será criada uma equipe multidisciplinar que conduzirá o planejamento e execução dos projetos ligados à execução do pleito eleitoral, seja de eleições oficiais ou comunitárias, conforme a legislação.  
+
+- Ligado diretamente a Secretaria, sob a condução do Secretário(a) exercendo a função de Presidente
+- A equipe multidisciplinar será composta pelos: 
+    - Secretária de Tecnologia da Informação e Comunicação (2 vaga)
+    - Gestão da Logística e da Eleição (1 vaga)
+    - Planejamento Institucional (1 vaga)
+    - Secretaria de Administração e Orçamento (2 vaga)
+    - Gestão de Pessoas (1 vaga)
+    - Zona Eleitoral (2 vaga)
+    - Corregedoria (1 vaga)
+    - Secretaria de Judiciária (2 vaga)
+    -  (1 vaga)
+
+- **Função Principal**: Exercer a consultoria, Executar o planejamento do pleito eleitoral
+
 A missão é levantar, identificar e conduzir a execução do pleito eleitoral;  
     - Levantar: regramento legal, condições a serem cumpridas e objetivo final do pleito;  
     - Organizar: equipes de trabalho, cronogramas de execução; seleção de materiais e equipamentos;  
     - Providenciar a aquisição, convênio, locação, convocação de pessoas, materiais, equipamentos e locais;  
     - Processar e apresentar: resultados, dificuldades;  
-    - Propor melhorias e reflexão para adoção de inovações para o próximo pleito
-
-```
+    - Propor melhorias e reflexão para adoção de inovações para o próximo pleito 
 
 . planejamento do pelito eleitoral;
 . definição de cronogramas: 
