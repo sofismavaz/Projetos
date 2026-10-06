@@ -46,6 +46,7 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
 
 #### 1. Secretaria de Tecnologia da Informação e Comunicação (STIC)
 - **Função Principal**: Unidade de direção superior responsável por planejar, organizar, dirigir e supervisionar as atividades de TIC, logística eleitoral, infraestrutura, segurança da informação e governança [47, 89, 226]. Precipuamente, presidente da Comissão Permanente de Planejamento e Gestão do Pleito Eleitoral
+- Sob direção do Secretário(a), exercendo o Cargo em Comissão (CJ)
 
 - **Atribuições**:
   - Dirigir a execução da ENTIC-JUD no âmbito do TRE-AC, em alinhamento com a Resolução CNJ nº 370/2021 e orientações do TSE e suas alterações [1, 6, 226].
@@ -59,6 +60,7 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
 
 #### 1.01 Gabinete da STIC
 - **Função Principal**: Suporte administrativo, operacional e de representação institucional da Secretaria [47, 92, 232].
+- Topo da estrutura organizacional da Secretaria, sob direção do Secretário(a), exercendo a Função em Comissão (FC)
 
 - **Atribuições**:
   - Gerir o expediente, a agenda institucional, o fluxo de processos administrativos do SEI e as comunicações internas e externas da Secretaria [92, 232].
@@ -69,16 +71,23 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
 
 #### 1.02 Núcleo de Planejamento de TIC
 - **Função Principal**: Gestão tática do alinhamento estratégico, governança, riscos, métricas (OKRs e iGovTIC-JUD) e planejamento das contratações de TIC [13, 44, 45, 47, 233].
+- Ligado diretamente a Secretaria, sob a condução do servidor(a) exercendo a Função em Comissão (FC)
 
 - **Atribuição** 
 
 ###### 1.021 Assistência de Governança de TIC
+- **Função Principal**: Execução tática e suporte administrativo para o alinhamento estratégico, governança, riscos, métricas (OKRs e iGovTIC-JUD) 
+- Subordinada ao Núcleo de Planejamento de TIC, sob a condução do servidor(a) exercendo a Função em Comissão (FC)
+
 - **Atribuições**:
   - Implementar e monitorar a aplicação do PDTIC, dos OKRs de TIC e do indicador iGovTIC-JUD do CNJ [44, 45, 235].
   - Mapear e formalizar os processos de trabalho da STIC, mantendo a base de conhecimento e catálogo de serviços atualizados [229, 230, 237].
   - Coordenar a Gestão de Riscos e Continuidade de Negócios da área tecnológica [13, 37, 229, 235].
 
 ###### 1.022 Assistência de Planejamento e de Contratação
+- **Função Principal**: Execução tática e suporte administrativo, operacional planejamento das contratações de TIC [13, 44, 45, 47, 233].
+- Subordinada ao Núcleo de Planejamento de TIC, sob a condução do servidor(a) exercendo a Função em Comissão (FC)
+
 - **Atribuições**:
   - Consolidar e gerir o Plano Anual de Contratações de TIC (PAC-TIC) [16, 229, 235].
   - Apoiar as equipes de planejamento na elaboração de Estudos Técnicos Preliminares (ETP), Termos de Referência (TR) e Análises de Riscos das contratações [231, 253, 254].
