@@ -51,7 +51,9 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
   - Dirigir a execução da ENTIC-JUD no âmbito do TRE-AC, em alinhamento com a Resolução CNJ nº 370/2021 e orientações do TSE e suas alterações [1, 6, 226].
   - Submeter ao Comitê de Governança de TIC e à Administração Superior o Plano Diretor de TIC (PDTIC), o Plano Anual de Contratações de TIC e o Plano de Continuidade de Serviços [11, 228, 229].
   - Supervisionar a integração do planejamento eleitoral, coordenando a recepção do voto informatizado, totalização e transmissão de resultados [90, 91, 227].
-  - Condizir a execução do pleito eleitoral.
+  - Condizir a execução do pleito eleitoral, presidindo a Comissão Permanente de Planejamento e Gestão do Pleito Eleitoral.
+
+- **
 
 ---
 
