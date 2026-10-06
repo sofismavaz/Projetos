@@ -110,6 +110,7 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
 A equipe de trabalho deverá estar preparada para a execução das atividades que exigirem a continuidade da prestação dos serviços do Tribunal, mantendo serviços, inovando em tecnologia e proporcionando a continuidade da disponibilidade do ambiente operacional tecnológico.
 
 - Ligado diretamente a Secretaria, sob a condução do servidor(a) exercendo o Cargo em Comissão (CJ)
+- Será composta por 3 (três) unidades subordinadas, com atividades agrupadas conforme a afinidade de suas ações, que serão exercidas por servidor(a) exercendo Função Comissionada (FC).
 
 . pesquisa e inovação:  
     . de hardware do parque computacional;  
@@ -143,46 +144,47 @@ A equipe de trabalho deverá estar preparada para a execução das atividades qu
 
 
 # Sistemas Corporativos  
-A equipe deverá estar preparada para desenvolver soluções tecnológicas próprias, manter sistemas e bases de dados operacionais, realizar ajustes, correções e extração de dados que possam contribuir para a evolução da gfestão da informação.
+* A equipe deverá estar preparada para desenvolver soluções tecnológicas próprias, manter sistemas e bases de dados operacionais, realizar ajustes, correções e extração de dados que possam contribuir para a evolução da gfestão da informação.
 
 - Ligado diretamente a Secretaria, sob a condução do servidor(a) exercendo o Cargo em Comissão (CJ)
+- Será composta por 3 (três) unidades subordinadas, com atividades agrupadas conforme a afinidade de suas ações, que serão exercidas por servidor(a) exercendo Função Comissionada (FC).
 
-. pesquisa e inovação para adoção na Instituição:   
-    . de softwares corporativos de parceiros;  
-    . de softwares corporativos de franquia comerciais;  
-    . de softwares corporativos de código livre;  
-. estudo, projeto e desenvolvimento de software corporativo;  
-. sustentação e manutenção de código de sistemas corporativos;  
-. sustentação e manutenção de bancos de dados corporativos;  
-. consultoria técnica e de integração de softwares a serem implantados e disponibilizados na Instituição;  
-. consultoria técnica e de integração para adoção e implantação de plataforma de deenvolvimento de softwares corporativos;  
-
+    . pesquisa e inovação para adoção na Instituição:   
+        . de softwares corporativos de parceiros;  
+        . de softwares corporativos de franquia comerciais;  
+        . de softwares corporativos de código livre;  
+    . estudo, projeto e desenvolvimento de software corporativo;  
+    . sustentação e manutenção de código de sistemas corporativos;  
+    . sustentação e manutenção de bancos de dados corporativos;  
+    . consultoria técnica e de integração de softwares a serem implantados e disponibilizados na Instituição;  
+    . consultoria técnica e de integração para adoção e implantação de plataforma de deenvolvimento de softwares corporativos;  
 
 # Gestão da Logística e da Eleição
-A equipe deverá estar preparada para elaborar o planejamento do pleito eleitoral, seja de eleição oficial ou comunitária.
-
-A equipe deverá estar preparada para operacionalizar as atividades relativas ao aceite, testes e instalação de máquinas e equipamentos de microinformática:(equipamentos, urnas e acessórios), sua distribuição, controles e conferências de materiais, que estão diretamente ou indiretamente envolvidos na execução e operacionalização dos sistemas eleitorais.
+* A equipe deverá estar preparada para elaborar o planejamento do pleito eleitoral, seja de eleição oficial ou comunitária.
+* A equipe deverá estar preparada para compilar e conduzir a execução da logística de materiais e equipamentos que estão diretamente ou indiretamente envolvidos com o pleito eleitoral.
+* A equipe deverá estar preparada para operacionalizar as atividades relativas ao aceite, testes e instalação de máquinas e equipamentos de microinformática:(equipamentos, urnas e acessórios), sua distribuição, controles e conferências de materiais, que estão diretamente ou indiretamente envolvidos na execução e operacionalização dos sistemas eleitorais.
 
 - Ligado diretamente a Secretaria, sob a condução do servidor(a) exercendo o Cargo em Comissão (CJ)
-- será composta por 3 (três) unidades subordinadas, que deverão exercutar as atividades de:
-. manutenção e conservação de hardwares;  
-    . urnas;  
-    . acessórios;  
-    . tablet;  
-    . notebooks, dentre outros;  
-. gestão da instalação de equipamentos de microinformática;  
-. logistica:  
-    . aceite e testes de equipamentos: de microinformática, ou urna, ou acessórios, denre outros;   
-    . distribuição, armazenamento, manutenção preventiva;  
-        . controles de entrada e saída;
-        . controles de localização e uso;
-    . acionamento de garantias;  
-. gestão de sistemas eleitorais;   
-. gestão de testes e da programação de manutenção preventiva dos equipamentos;   
+- Será composta por 3 (três) unidades subordinadas, com atividades agrupadas conforme a afinidade de suas ações, que serão exercidas por servidor(a) exercendo Função Comissionada (FC).
+
+    . manutenção e conservação de hardwares;  
+        . urnas;  
+        . acessórios;  
+        . tablet;  
+        . notebooks, dentre outros;  
+    . gestão da instalação de equipamentos de microinformática;  
+    . logistica:  
+        . aceite e testes de equipamentos: de microinformática, ou urna, ou acessórios, denre outros;   
+        . distribuição, armazenamento, manutenção preventiva;  
+            . controles de entrada e saída;
+            . controles de localização e uso;
+        . acionamento de garantias;  
+    . gestão de sistemas eleitorais;   
+    . gestão de testes e da programação de manutenção preventiva dos equipamentos;   
 
 
 # Comissão Permanente de Planejamento e Gestão do Pleito eleitoral
-Será criada uma equipe multidisciplinar que conduzirá o planejamento e execução dos projetos ligados à execução do pleito eleitoral, seja de eleições oficiais ou comunitárias, conforme a legislação.  
+* Será criada uma equipe multidisciplinar que conduzirá o planejamento e execução dos projetos ligados à execução do pleito eleitoral, seja de eleições oficiais ou comunitárias, conforme a legislação.  
 
 - Ligado diretamente a Secretaria, sob a condução do Secretário(a) exercendo a função de Presidente
 - A equipe multidisciplinar será composta pelos: 
@@ -194,9 +196,11 @@ Será criada uma equipe multidisciplinar que conduzirá o planejamento e execuç
     - Zona Eleitoral (2 vaga)
     - Corregedoria (1 vaga)
     - Secretaria de Judiciária (2 vaga)
-    -  (1 vaga)
 
-- **Função Principal**: Exercer a consultoria, Executar o planejamento do pleito eleitoral
+### Conultor
+    - Juíz Auxiliar indicado pela Presidência, com a anuência da Corregedoria (1 vaga)
+
+- **Função Principal**: Promover e conduzir a execução do planejamento do pleito eleitoral, exercer a consultoria, dentre outras atividades pertinentes.
 
 A missão é levantar, identificar e conduzir a execução do pleito eleitoral;  
     - Levantar: regramento legal, condições a serem cumpridas e objetivo final do pleito;  
@@ -213,5 +217,7 @@ A missão é levantar, identificar e conduzir a execução do pleito eleitoral;
 . requisição de máquinas e equipamentos;  
 . prestação de contas;  
 . consolidação e reflexão da execução do planejamento;  
+
+* Caberá ao magistrado produzir os atos necessários a plena execução do pleito que estiverem fora do alcance da Comissão
 
 
