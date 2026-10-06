@@ -1,4 +1,11 @@
 # Infeaestrutura  
+```
+
+A equipe de trabalho deverá estar preparada para a execução das atividades que exigirem a continuidade da prestação dos serviços do Tribunal, mantendo serviços, inovando em tecnologia e proporcionando a continuidade da disponibilidade do ambiente operacional tecnológico.
+
+
+```
+
 . pesquisa e inovação:  
     . de hardware do parque computacional;  
     . de softwares básicos do parque computacional;  
@@ -31,6 +38,12 @@
 
 
 # Soluções Corporativas  
+
+```
+A equipe deverá estar preparada para desenvolver soluções tecnológicas próprias, manter sistemas e bases de dados operacionais, realizar ajustes, correções e extração de dados que possam contribuir para a evolução da gfestão da informação.
+
+```
+
 . pesquisa e inovação para adoção na Instituição:   
     . de softwares corporativos de parceiros;  
     . de softwares corporativos de franquia comerciais;  
@@ -43,6 +56,12 @@
 
 
 # Gestão da Logística e dos Sistemas Eleitorais
+
+```
+A equipe deverá estar preparada para operacionalizar as atividades relativas ao aceite, testes e instalação de máquinas e equipamentos de tecnologia, realizar a operacionalização dos sistemas, distribuição, controles e conferências de materiais envolvidos na execução do pleito eleitoral.
+
+```
+
 . manutenção e conservação de hardwares;  
     . urnas;  
     . acessórios;  
@@ -57,4 +76,25 @@
     . acionamento de garantias;  
 . gestão de sistemas eleitorais;   
 . gestão de testes e da programação de manutenção preventiva dos equipamentos;   
-. 
+
+
+# Comissão Permanente de Planejamento e Gestão do Pleito eleitoral
+```
+Será criada uma equipe multidisciplinar que conduzirá o planejamento e execução dos projetos ligados à execução do pleito eleitoral, seja de eleições oficiais ou comunitárias, conforme a legislação.  
+A missão é levantar, identificar e conduzir a execução do pleito eleitoral;  
+    - Levantar: regramento legal, condições a serem cumpridas e objetivo final do pleito;  
+    - Organizar: equipes de trabalho, cronogramas de execução; seleção de materiais e equipamentos;  
+    - Providenciar a aquisição, convênio, locação, convocação de pessoas, materiais, equipamentos e locais;  
+    - Processar e apresentar: resultados, dificuldades;  
+    - Propor melhorias e reflexão para adoção de inovações para o próximo pleito
+
+```
+
+. planejamento do pelito eleitoral;
+. definição de cronogramas: 
+    . reuniões, avaliações,  
+    . convocação de serventuários,  
+. seleção de equipes de trabalhos;  
+. requisição de máquinas e equipamentos;  
+. prestação de contas;  
+. consolidação e reflexão da execução do planejamento;  
