@@ -1,8 +1,16 @@
 ### PROPOSTA DE REESTRUTURAÇÃO ORGANIZACIONAL DA SECRETARIA DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO (STIC) DO TRE-AC
 
+# Estudo do Tema Reestruturação
+
+A reestruturação organizacional (criação, extinção ou alteração de coordenadorias, assessorias, núcleos e seções, da Secretaria) no âmbito dos Tribunais do Poder Judiciário brasileiro é disciplinada por uma combinação de normas constitucionais, leis federais, resoluções do Conselho Nacional de Justiça (CNJ) e, principalmente, pela **competência normativa interna** de cada tribunal.
+
+Marcos legais e normativos que fundamentam juridicamente a elaboração de organogramas e a estrutura administrativa dos tribunais:
+
+---
+
 ### 1. APRESENTAÇÃO E OBJETIVOS INSTITUCIONAIS
 
-A presente proposta tem por objetivo formalizar a reestruturação organizacional da **Secretaria de Tecnologia da Informação (STI)** do Tribunal Regional Eleitoral do Acre (TRE-AC), promovendo sua transição e nova designação para **Secretaria de Tecnologia da Informação e Comunicação (STIC)** [47].
+Proposta que tem por objetivo formalizar a reestruturação organizacional da **Secretaria de Tecnologia da Informação (STI)** do Tribunal Regional Eleitoral do Acre (TRE-AC), promovendo sua transição para o nova nível tecnológico, sob a designação de **Secretaria de Tecnologia da Informação e Comunicação (STIC)** [47].
 
 Esta reformulação buscará atender às diretrizes nacionais estabelecidas pelo Conselho Nacional de Justiça (CNJ), em especial a **Resolução CNJ nº 370/2021** (Estratégia Nacional de Tecnologia da Informação e Comunicação do Poder Judiciário – ENTIC-JUD 2021-2026) [1, 6], ao **Plano Estratégico Institucional do TRE-AC (Resolução TRE-AC nº 1.763/2021)** [162] e ao novo **Regimento Interno da Secretaria (Resolução TRE-AC nº 1.808/2025)** [50, 163].
 
@@ -12,12 +20,13 @@ A reestruturação busca:
 3. **Integração do Planejamento e Execução Eleitoral**: Absorver as atribuições da *Assessoria de Gestão Eleitoral (AGEL)* – atualmente isolada no âmbito da Diretoria-Geral [167] – e integrá-las organicamente à nova **Coordenadoria de Gestão da Logística e da Eleição**, ampliando o escopo de atuação, para incorporar o conjunto de hardwares utilizados em pleitos eleitorais e reorganizando suas unidades finalísticas por  afinidade [47, 48].
 4. **Otimização das unidades**: agrupando as atividades de gestão de data centers, servidores, redes, nuvem e backups com a engenharia e manutenção de hardware e ambiente de serviços em unidades especializada de infraestrutura, sustentação, serviços, seguranção cibernetica e inovação tecnológica.
 5. **Atendimento aos Macroprocessos Mínimos do CNJ**: Incorporar explicitamente as estruturas de Governança, Planejamento de Contratações, Inteligência de Dados, Cibersegurança, Inovação Tecnológica, Sustentação de Ambientes de Produção, Simulados e Testes Sistêmicos de Eleição [1, 21, 48].
+6. **Criação da Comissão Permanente de Planejamento e Gestão do Pleito Eleitoral**: que coordenará a execução do pleito eleitoral na Justiça Eleitoral do Acre.
 
 ---
 
 ### 2. NOVA ESTRUTURA ORGANIZACIONAL REVISADA DA STIC
 
-A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica, racionalizada e especializada, codificada conforme a seguinte árvore organizacional [47]:
+A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica, codificada conforme a seguinte árvore organizacional [47]:
 
 1. Secretaria de Tecnologia da Informação e Comunicação (STIC)
    1.01 Gabinete da STIC (GSTIC)
@@ -29,40 +38,45 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
    1.3 Coordenadoria de Sistemas Corporativos (CSCOR)
    1.4 Coordenadoria de Gestão da Logística e da Eleição (CGLE)
   
-* Comissão Permanente de Planejamento e Gestão do Pleito eleitoral 
+* Comissão Permanente de Planejamento e Gestão do Pleito Eleitoral 
 
 ---
 
 ### 3. MAPEAMENTO INICIAL E ATRIBUIÇÕES DAS UNIDADES E SUBUNIDADES
 
-### 1. Secretaria de Tecnologia da Informação e Comunicação (STIC)
-- **Função Principal**: Unidade de direção superior responsável por planejar, organizar, dirigir e supervisionar as atividades de TIC, logística eleitoral, infraestrutura, segurança da informação e governança [47, 89, 226]. Precipuamente 
+#### 1. Secretaria de Tecnologia da Informação e Comunicação (STIC)
+- **Função Principal**: Unidade de direção superior responsável por planejar, organizar, dirigir e supervisionar as atividades de TIC, logística eleitoral, infraestrutura, segurança da informação e governança [47, 89, 226]. Precipuamente, presidente da Comissão Permanente de Planejamento e Gestão do Pleito Eleitoral
+
 - **Atribuições**:
   - Dirigir a execução da ENTIC-JUD no âmbito do TRE-AC, em alinhamento com a Resolução CNJ nº 370/2021 e orientações do TSE e suas alterações [1, 6, 226].
   - Submeter ao Comitê de Governança de TIC e à Administração Superior o Plano Diretor de TIC (PDTIC), o Plano Anual de Contratações de TIC e o Plano de Continuidade de Serviços [11, 228, 229].
   - Supervisionar a integração do planejamento eleitoral, coordenando a recepção do voto informatizado, totalização e transmissão de resultados [90, 91, 227].
+  - Condizir a execução do pleito eleitoral.
 
 ---
 
-### 1.01 Gabinete da STIC
+#### 1.01 Gabinete da STIC
 - **Função Principal**: Suporte administrativo, operacional e de representação institucional da Secretaria [47, 92, 232].
+
 - **Atribuições**:
   - Gerir o expediente, a agenda institucional, o fluxo de processos administrativos do SEI e as comunicações internas e externas da Secretaria [92, 232].
   - Elaborar minutas de portarias, ordens de serviço, relatórios de gestão e memórias de reunião [92, 216].
-  - Coordenar a comunicação interna entre as Coordenadorias subordinadas e a Diretoria-Geral [92, 232].
+  - Interlocução da comunicação interna entre as Coordenadorias subordinadas e a Diretoria-Geral [92, 232].
 
 ---
 
-### 1.02 Núcleo de Planejamento de TIC
+#### 1.02 Núcleo de Planejamento de TIC
 - **Função Principal**: Gestão tática do alinhamento estratégico, governança, riscos, métricas (OKRs e iGovTIC-JUD) e planejamento das contratações de TIC [13, 44, 45, 47, 233].
 
-##### 1.021 Assistência de Governança de TIC
+- **Atribuição** 
+
+###### 1.021 Assistência de Governança de TIC
 - **Atribuições**:
   - Implementar e monitorar a aplicação do PDTIC, dos OKRs de TIC e do indicador iGovTIC-JUD do CNJ [44, 45, 235].
   - Mapear e formalizar os processos de trabalho da STIC, mantendo a base de conhecimento e catálogo de serviços atualizados [229, 230, 237].
   - Coordenar a Gestão de Riscos e Continuidade de Negócios da área tecnológica [13, 37, 229, 235].
 
-##### 1.022 Assistência de Planejamento e de Contratação
+###### 1.022 Assistência de Planejamento e de Contratação
 - **Atribuições**:
   - Consolidar e gerir o Plano Anual de Contratações de TIC (PAC-TIC) [16, 229, 235].
   - Apoiar as equipes de planejamento na elaboração de Estudos Técnicos Preliminares (ETP), Termos de Referência (TR) e Análises de Riscos das contratações [231, 253, 254].
@@ -70,7 +84,7 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
 
 ---
 
-### 1.03 Assessoria de Inteligência de Dados
+#### 1.03 Assessoria de Inteligência de Dados
 - **Função Principal**: Gestão de dados institucionais, desenvolvimento de painéis de *Business Intelligence* (BI), ciência de dados e apoio à tomada de decisão estratégica [7, 47, 283].
 - **Atribuições**:
   - Projetar, construir e manter painéis e dashboards gerenciais em BI para monitoramento de indicadores de desempenho do Tribunal e das eleições [7, 283, 285].
