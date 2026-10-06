@@ -221,3 +221,163 @@ A missão é levantar, identificar e conduzir a execução do pleito eleitoral;
 * Caberá ao magistrado produzir os atos necessários a plena execução do pleito que estiverem fora do alcance da Comissão
 
 
+# Estrutura inicial
+```json
+{
+  "version": "31.6.1",
+  "pages": [
+    {
+      "id": "BXyQPXcFJEMIx4uQBpjd",
+      "name": "Página-1",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Orgchart"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-2",
+          "type": "edge",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "source": "N52cZFeCB7nli4y9mZH4-4",
+          "target": "N52cZFeCB7nli4y9mZH4-5"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-3",
+          "type": "edge",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "source": "N52cZFeCB7nli4y9mZH4-4",
+          "target": "N52cZFeCB7nli4y9mZH4-6"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-4",
+          "type": "node",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "label": "Secretaria de Tecnologia da Informação e Comunicação (STIC)",
+          "metadata": {
+            "treeRoot": "1"
+          }
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-5",
+          "type": "node",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "label": "Infraestrutura\n(CIE)",
+          "html": "Infraestrutura<div>(CIE)</div>"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-6",
+          "type": "node",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "label": "Soluções Corporativas\n(CSCOR)",
+          "html": "Soluções Corporativas<div>(CSCOR)</div>"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-7",
+          "type": "edge",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "source": "N52cZFeCB7nli4y9mZH4-4",
+          "target": "N52cZFeCB7nli4y9mZH4-8"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-8",
+          "type": "node",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "label": "Gabinete da Secretaria de Tecnologia da Informação e Comunicação (GSTIC)",
+          "metadata": {
+            "treeRoot": "1"
+          }
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-9",
+          "type": "edge",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "source": "N52cZFeCB7nli4y9mZH4-4",
+          "target": "N52cZFeCB7nli4y9mZH4-10"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-10",
+          "type": "node",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "label": "Núcleo de Planejamento\n(NPGPC)",
+          "html": "Núcleo de Planejamento<div>(NPGPC)</div>",
+          "metadata": {
+            "treeRoot": "1"
+          }
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-12",
+          "type": "node",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "label": "Governança de TIC\n(GTIC)",
+          "html": "Governança de TIC<div>(GTIC)</div>",
+          "metadata": {
+            "treeRoot": "1"
+          }
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-14",
+          "type": "node",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "label": "Planejamento da Contratação\n(PCTIC)",
+          "html": "Planejamento da Contratação<div>(PCTIC)</div>",
+          "metadata": {
+            "treeRoot": "1"
+          }
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-15",
+          "type": "edge",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "source": "N52cZFeCB7nli4y9mZH4-10",
+          "target": "N52cZFeCB7nli4y9mZH4-14"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-16",
+          "type": "edge",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "source": "N52cZFeCB7nli4y9mZH4-10",
+          "target": "N52cZFeCB7nli4y9mZH4-12"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-17",
+          "type": "node",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "label": "Gestão da Logística e da Eleição\n(CGLE)",
+          "html": "Gestão da Logística e da Eleição<div>(CGLE)</div>"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-18",
+          "type": "edge",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "source": "N52cZFeCB7nli4y9mZH4-4",
+          "target": "N52cZFeCB7nli4y9mZH4-17"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-21",
+          "type": "edge",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "source": "N52cZFeCB7nli4y9mZH4-4",
+          "target": "N52cZFeCB7nli4y9mZH4-22"
+        },
+        {
+          "id": "N52cZFeCB7nli4y9mZH4-22",
+          "type": "node",
+          "parent": "N52cZFeCB7nli4y9mZH4-1",
+          "label": "Secretaria de Tecnologia da Informação e Comunicação (STIC)",
+          "metadata": {
+            "treeRoot": "1"
+          }
+        }
+      ]
+    }
+  ]
+}
+```
+
+
