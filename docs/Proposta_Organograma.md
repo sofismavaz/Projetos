@@ -1,29 +1,34 @@
-# PROPOSTA DE REESTRUTURAÇÃO ORGANIZACIONAL DA SECRETARIA DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO (STIC) DO TRE-AC
+# PROPOSTA DE REESTRUTURAÇÃO ORGANIZACIONAL PARA A NOVA SECRETARIA DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO (STIC) DO TRE-AC
 
 ### Estudo do Tema Reestruturação
 
 A reestruturação organizacional (criação, extinção ou alteração de coordenadorias, assessorias, núcleos e seções, da Secretaria) no âmbito dos Tribunais do Poder Judiciário brasileiro é disciplinada por uma combinação de normas constitucionais, leis federais, resoluções do Conselho Nacional de Justiça (CNJ) e, principalmente, pela **competência normativa interna** de cada tribunal.
-
-Marcos legais e normativos que fundamentam juridicamente a elaboração de organogramas e a estrutura administrativa dos tribunais:
 
 ---
 
 ### Saídas:
 
 * Dentro da perspectiva de impulsionar a Instituição para elevá-la ao novo nível tecnológico que o cenário atual exige, criar uma **Proposta de Reestruturação da Secretaria de Tecnologia da Informação e Comunicação**, onde as atividades deverão ser agrupadas conforme as afinidades de execução, preparação e logística.
-* Enriquecer o projeto com exemplos de outros Tribunais.
-* Enriquecer o projeto com o histórico evolutivos da Instituição dentro das ultims décadas.
-* Enriquecer o projeto com o histórico de evolução da tecnologia nas últimas décadas.
-* Enriquecer o projeto com o histórico de evolução da urna eletrônica e seus processos de controle e auditoria.
-* Enriquecer o projeto com a crescente demanda de novos serviços.
-* Enriquecer o projeto com a necessidade de se iniciar o processo de contratação de mão de obra especializada para manter a estrutura vigente.
-* Criar o arquivo de projeto e de fundamentação no formato markdown.
+* Criar um documento de justificativa com fundamentação legal e normativa para ser apresentado a Alta Corte do Tribunal:
+    - Demonstrando as vantagens da proposta;
+    - Trazendo pontos marcantes de evolução que a proposta alcançará;
+    - Trzendo os seus benefícios para o futuro;
+    - Demonstrando a compatibilidade entre a proposta e as diretrizes do CNJ.
+* Buscar o organograma do TSE, demais TREs da federação, e:
+    - Enriquecer a proposta com exemplos de organogramas estruturais de Regionais.
+    - Enriquecer a proposta com o histórico evolutivos da Instituição, dentro das ultims décadas.
+    - Enriquecer a proposta com o histórico de evolução da tecnologia da Justiça Eleitoral nas últimas décadas.
+    - Enriquecer a proposta com o histórico de evolução da urna eletrônica e seus processos de controle e auditoria.
+* Fazer comparativos do desempenho dos servidores para a crescente demanda de novos serviços.
+* Enriquecer a proposta com a necessidade de se iniciar o processo de contratação de mão de obra especializada para manter a estrutura vigente.
+* Não resumir.
+* Criar o arquivo com a proposta e de fundamentação no formato markdown.
 
 ---
 
 ### 1. APRESENTAÇÃO E OBJETIVOS INSTITUCIONAIS
 
-Proposta que tem por objetivo formalizar a reestruturação organizacional da **Secretaria de Tecnologia da Informação (STI)** do Tribunal Regional Eleitoral do Acre (TRE-AC), promovendo sua transição para o nova nível tecnológico, sob a designação de **Secretaria de Tecnologia da Informação e Comunicação (STIC)** [47].
+Proposta que tem por objetivo formalizar a reestruturação organizacional da **Secretaria de Tecnologia da Informação (STI)** do Tribunal Regional Eleitoral do Acre (TRE-AC), promovendo sua transição para o novo nível tecnológico, sob a designação de **Secretaria de Tecnologia da Informação e Comunicação (STIC)** [47].
 
 Esta reformulação buscará atender às diretrizes nacionais estabelecidas pelo Conselho Nacional de Justiça (CNJ), em especial a **Resolução CNJ nº 370/2021** (Estratégia Nacional de Tecnologia da Informação e Comunicação do Poder Judiciário – ENTIC-JUD 2021-2026) [1, 6], ao **Plano Estratégico Institucional do TRE-AC (Resolução TRE-AC nº 1.763/2021)** [162] e ao novo **Regimento Interno da Secretaria (Resolução TRE-AC nº 1.808/2025)** [50, 163].
 
@@ -35,17 +40,37 @@ A reestruturação busca:
 5. **Atendimento aos Macroprocessos Mínimos do CNJ**: Incorporar explicitamente as estruturas de Governança, Planejamento de Contratações, Inteligência de Dados, Cibersegurança, Inovação Tecnológica, Sustentação de Ambientes de Produção, Simulados e Testes Sistêmicos de Eleição [1, 21, 48].
 6. **Criação da Comissão Permanente de Planejamento e Gestão do Pleito Eleitoral**: que coordenará a execução do pleito eleitoral na Justiça Eleitoral do Acre.
 
+---
 
 ### Considerar que:
-1. a infraestrura física de servidores, distribuição e redes já está prontoa e operacional;
-2. as regras e e configuração de equipamentos esta validade e em produção;
-3. o parque computacional atende a 100% dos servidores do quadro permanente, colaboradores, magistrados, estagiários e requisitados;
-4. há investimento da produção e desenvolvimento de softwares corporativos de alta tecnologia;
+1. a infraestrura física de máquinas servidoras, instalação e distribuição de redes de computadores já está pronta e operacional;
+2. as regras e configurações de equipamentos já foram implementadas e estão validadas, homologadas e em produção;
+3. o parque computacional atende a 100% dos servidores do quadro permanente, colaboradores, magistrados, estagiários e requisitados no Estado;
+4. há investimentos na produção e desenvolvimento de softwares corporativos de alta tecnologia;
 5. o  ambiente operacional é fundamentado na autenticação em multiplus fatores;
 6. que o ambiente de desenvolvimento foi padronizado com php, laravel, oracle, com a utilização de agentes de IA;
-7. o reduzido número de servidores do quadro obriga 
+7. o reduzido número de servidores do quadro permanente obriga os profissionais a serem mais criativos e produtivos paa alcançar seus objetivos;
+8. o parque computacional de máquinas servidoras tem sistema operacional ubuntu versão 24 em média;
+9. há um número elevado de máquinas virtuais interagindo entre si, sob a proteção de firewall e hproxy;
+10. os profissionais são previamente credenciados, e 100% estão sob a guarda das bases do Microsoft Server (AD);
+11. os profissionais que trabalham em home-office possuem acesso credenciado para a intranet através de VPN e multiplo fator de autenticação;
+
 
 ---
+
+#### Demandas e Expectativas da Secretaria de Tecnologia da Informação (STI)
+
+A Secretaria de Tecnologia da Informação é o órgão central de sustentação de toda a infraestrutura digital e dos sistemas judiciais e administrativos do TRE-AC. As equipes técnicas da STI enfrentam desafios diários que requerem computadores com elevadíssima capacidade computacional em posto fixo, tais como:
+
+* Desenvolvimento e Sustentação de Sistemas: Compilação de código, conteinerização (Docker, Kubernetes), virtualização e execução de ambientes Linux (WSL2);
+
+* Gestão de Bancos de Dados e BI: Manipulação de grandes bases relacionais (Oracle, PostgreSQL) e processamento em tempo real de painéis de Business Intelligence (BI) para acompanhamento do eleitorado e das metas nacionais;
+
+* Segurança Cibernética e Monitoramento: Operação de ferramentas de análise de vulnerabilidades, monitoramento de redes (Zabbix, GLPI), gestão do firewall e pronta resposta a incidentes cibernéticos (ETIR).
+
+Adicionalmente, os servidores técnicos e gestores da STI necessitam de notebooks corporativos de alta performance para prover suporte presencial e remoto aos Cartórios Eleitorais do interior do Estado, apoiar a preparação e manutenção das urnas eletrônicas e garantir a continuidade das operações do Tribunal em situações de emergência.
+
+#### 
 
 ### 2. NOVA ESTRUTURA ORGANIZACIONAL REVISADA DA STIC
 
@@ -174,7 +199,7 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
         . de softwares corporativos de parceiros;  
         . de softwares corporativos de franquia comerciais;  
         . de softwares corporativos de código livre;  
-    . estudo, projeto e desenvolvimento de software corporativo;  
+    . estudoa proposta e desenvolvimento de software corporativo;  
     . sustentação e manutenção de código de sistemas corporativos;  
     . sustentação e manutenção de bancos de dados corporativos;  
     . consultoria técnica e de integração de softwares a serem implantados e disponibilizados na Instituição;  
@@ -205,7 +230,7 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
 
 
 # Comissão Permanente de Planejamento e Gestão do Pleito eleitoral
-* Será criada uma equipe multidisciplinar que conduzirá o planejamento e execução dos projetos ligados à execução do pleito eleitoral, seja de eleições oficiais ou comunitárias, conforme a legislação.  
+* Será criada uma equipe multidisciplinar que conduzirá o planejamento e execução doa propostas ligados à execução do pleito eleitoral, seja de eleições oficiais ou comunitárias, conforme a legislação.  
 
 - Ligado diretamente a Secretaria, sob a condução do Secretário(a) exercendo a função de Presidente
 - A equipe multidisciplinar será composta pelos: 
