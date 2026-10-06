@@ -1,10 +1,23 @@
-### PROPOSTA DE REESTRUTURAÇÃO ORGANIZACIONAL DA SECRETARIA DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO (STIC) DO TRE-AC
+# PROPOSTA DE REESTRUTURAÇÃO ORGANIZACIONAL DA SECRETARIA DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO (STIC) DO TRE-AC
 
-# Estudo do Tema Reestruturação
+### Estudo do Tema Reestruturação
 
 A reestruturação organizacional (criação, extinção ou alteração de coordenadorias, assessorias, núcleos e seções, da Secretaria) no âmbito dos Tribunais do Poder Judiciário brasileiro é disciplinada por uma combinação de normas constitucionais, leis federais, resoluções do Conselho Nacional de Justiça (CNJ) e, principalmente, pela **competência normativa interna** de cada tribunal.
 
 Marcos legais e normativos que fundamentam juridicamente a elaboração de organogramas e a estrutura administrativa dos tribunais:
+
+---
+
+### Saídas:
+
+* Dentro da perspectiva de impulsionar a Instituição para elevá-la ao novo nível tecnológico que o cenário atual exige, criar uma **Proposta de Reestruturação da Secretaria de Tecnologia da Informação e Comunicação**, onde as atividades deverão ser agrupadas conforme as afinidades de execução, preparação e logística.
+* Enriquecer o projeto com exemplos de outros Tribunais.
+* Enriquecer o projeto com o histórico evolutivos da Instituição dentro das ultims décadas.
+* Enriquecer o projeto com o histórico de evolução da tecnologia nas últimas décadas.
+* Enriquecer o projeto com o histórico de evolução da urna eletrônica e seus processos de controle e auditoria.
+* Enriquecer o projeto com a crescente demanda de novos serviços.
+* Enriquecer o projeto com a necessidade de se iniciar o processo de contratação de mão de obra especializada para manter a estrutura vigente.
+* Criar o arquivo de projeto e de fundamentação no formato markdown.
 
 ---
 
@@ -21,6 +34,16 @@ A reestruturação busca:
 4. **Otimização das unidades**: agrupando as atividades de gestão de data centers, servidores, redes, nuvem e backups com a engenharia e manutenção de hardware e ambiente de serviços em unidades especializada de infraestrutura, sustentação, serviços, seguranção cibernetica e inovação tecnológica.
 5. **Atendimento aos Macroprocessos Mínimos do CNJ**: Incorporar explicitamente as estruturas de Governança, Planejamento de Contratações, Inteligência de Dados, Cibersegurança, Inovação Tecnológica, Sustentação de Ambientes de Produção, Simulados e Testes Sistêmicos de Eleição [1, 21, 48].
 6. **Criação da Comissão Permanente de Planejamento e Gestão do Pleito Eleitoral**: que coordenará a execução do pleito eleitoral na Justiça Eleitoral do Acre.
+
+
+### Considerar que:
+1. a infraestrura física de servidores, distribuição e redes já está prontoa e operacional;
+2. as regras e e configuração de equipamentos esta validade e em produção;
+3. o parque computacional atende a 100% dos servidores do quadro permanente, colaboradores, magistrados, estagiários e requisitados;
+4. há investimento da produção e desenvolvimento de softwares corporativos de alta tecnologia;
+5. o  ambiente operacional é fundamentado na autenticação em multiplus fatores;
+6. que o ambiente de desenvolvimento foi padronizado com php, laravel, oracle, com a utilização de agentes de IA;
+7. o reduzido número de servidores do quadro obriga 
 
 ---
 
@@ -53,8 +76,6 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
   - Submeter ao Comitê de Governança de TIC e à Administração Superior o Plano Diretor de TIC (PDTIC), o Plano Anual de Contratações de TIC e o Plano de Continuidade de Serviços [11, 228, 229].
   - Supervisionar a integração do planejamento eleitoral, coordenando a recepção do voto informatizado, totalização e transmissão de resultados [90, 91, 227].
   - Condizir a execução do pleito eleitoral, presidindo a Comissão Permanente de Planejamento e Gestão do Pleito Eleitoral.
-
-- **
 
 ---
 
@@ -107,7 +128,8 @@ A nova arquitetura corporativa da **STIC** é estruturada de forma hierárquica,
 ---
 
 # Infraestrutura  
-A equipe de trabalho deverá estar preparada para a execução das atividades que exigirem a continuidade da prestação dos serviços do Tribunal, mantendo serviços, inovando em tecnologia e proporcionando a continuidade da disponibilidade do ambiente operacional tecnológico.
+* A equipe de trabalho deverá estar preparada para a execução das atividades que exigirem a continuidade da prestação dos serviços do Tribunal.
+* Manter serviços, inovar em tecnologia, dar continuidade e disponibilidade do ambiente operacional tecnológico.
 
 - Ligado diretamente a Secretaria, sob a condução do servidor(a) exercendo o Cargo em Comissão (CJ)
 - Será composta por 3 (três) unidades subordinadas, com atividades agrupadas conforme a afinidade de suas ações, que serão exercidas por servidor(a) exercendo Função Comissionada (FC).
@@ -141,7 +163,6 @@ A equipe de trabalho deverá estar preparada para a execução das atividades qu
 . suporte a microinformática;  
 . suporte ao usuário;  
 . gestão central de atendimento de serviços corporativos;  
-
 
 # Sistemas Corporativos  
 * A equipe deverá estar preparada para desenvolver soluções tecnológicas próprias, manter sistemas e bases de dados operacionais, realizar ajustes, correções e extração de dados que possam contribuir para a evolução da gfestão da informação.
